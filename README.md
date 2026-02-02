@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Malhar</h1>
-<h3 align="center">An aspiring software developer from India</h3>
+<h3 align="center">An aspiring software developer</h3>
 
 - 🔭 Currently working on [an AI-Based Finance Tracker—a collaborative platform designed to make financial management smarter and more intuitive.](https://github.com/captainmmd1304/AI-Powered-Personal-Finance-Tracker)
 
