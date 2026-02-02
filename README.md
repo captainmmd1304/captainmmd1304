@@ -3,7 +3,7 @@
 
 - 🔭 Currently working on [an AI-Based Finance Tracker—a collaborative platform designed to make financial management smarter and more intuitive.](https://github.com/captainmmd1304/AI-Powered-Personal-Finance-Tracker)
 
-- 🌱 I’m currently looking forward to **deepening my knowledge about various Machine Learning algorithms and exploring advanced Web Development**
+- 🌱 I’m currently looking forward to **deepening my knowledge about various Machine Learning algorithms and exploring advanced Web Development concepts.**
 
 - 👯 I’m looking to collaborate on **open-source projects involving Machine Learning (XGBoost, TensorFlow) or performance-heavy Java/Python backend systems.**
 
