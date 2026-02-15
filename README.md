@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, I'm Malhar</h1>
 
-- 🔭 Currently working on [an AI-Based Finance Tracker—a collaborative platform designed to make financial management smarter and more intuitive.](https://github.com/captainmmd1304/AI-Powered-Personal-Finance-Tracker)
+-  Currently working on [an AI-Based Finance Tracker—a collaborative platform designed to make financial management smarter and more intuitive.](https://github.com/captainmmd1304/AI-Powered-Personal-Finance-Tracker)
 
-- 🌱 I’m currently looking forward to **deepening my knowledge about various Machine Learning algorithms and exploring advanced Web Development concepts.**
+-  I’m currently looking forward to **deepening my knowledge about various Machine Learning algorithms and exploring advanced Web Development concepts.**
 
-- 👯 I’m looking to collaborate on **open-source projects involving Machine Learning (XGBoost, TensorFlow) or performance-heavy Java/Python backend systems.**
+-  I’m looking to collaborate on **open-source projects involving Machine Learning (XGBoost, TensorFlow) or performance-heavy Java/Python backend systems.**
 
-- 👨‍💻 All of my projects are available at [https://github.com/captainmmd1304?tab=repositories](https://github.com/captainmmd1304?tab=repositories)
+-  All of my projects are available at [https://github.com/captainmmd1304?tab=repositories](https://github.com/captainmmd1304?tab=repositories)
 
-- 📫 How to reach me **malhardegaonkar@gmail.com**
+-  How to reach me **malhardegaonkar@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
