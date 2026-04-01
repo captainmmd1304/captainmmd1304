@@ -1,32 +1,25 @@
+<svg width="950" height="540" viewBox="0 0 950 540" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble { fill: #3f3f46; }
+    .text { fill: #f5f5f5; font-family: Arial, Helvetica, sans-serif; font-size: 20px; }
+    .link { fill: #3b82f6; text-decoration: underline; }
+  </style>
 
-<svg width="950" height="520" xmlns="http://www.w3.org/2000/svg">
-<style>
-  .bubble { fill:#3f3f46; }
-  .text { fill:#f5f5f5; font-family: Arial, Helvetica, sans-serif; font-size:20px; }
-  .link { fill:#3b82f6; text-decoration: underline; }
-</style>
+  <rect x="20" y="20" rx="22" ry="22" width="280" height="60" class="bubble"/>
+  <text x="40" y="58" class="text">Hi, I'm Malhar</text>
 
-<!-- Bubble 1 -->
-<rect x="20" y="20" rx="22" width="280" height="60" class="bubble"/>
-<text x="40" y="55" class="text">Hi, I'm Malhar 👋</text>
+  <rect x="20" y="100" rx="22" ry="22" width="650" height="90" class="bubble"/>
+  <text x="40" y="140" class="text">Good evening!</text>
+  <text x="40" y="170" class="text">I am from Pune, India where it is supposed to be  29°C today.</text>
 
-<!-- Bubble 2 -->
-<rect x="20" y="100" rx="22" width="650" height="90" class="bubble"/>
-<text x="40" y="140" class="text">Good afternoon 🌤️!</text>
-<text x="40" y="170" class="text">I am from Pune, India 🌍 where it's supposed to be 34°C today.</text>
+  <rect x="20" y="210" rx="22" ry="22" width="820" height="90" class="bubble"/>
+  <text x="40" y="250" class="text">I'm a Computer Science student interested in</text>
+  <text x="40" y="280" class="text">LLMs, open source, machine learning, and web development.</text>
 
-<!-- Bubble 3 -->
-<rect x="20" y="210" rx="22" width="700" height="90" class="bubble"/>
-<text x="40" y="250" class="text">I'm a computer science student interested in</text>
-<text x="40" y="280" class="text"> LLMs, open source, machine learning and web development 🚀</text>
+  <rect x="20" y="320" rx="22" ry="22" width="760" height="90" class="bubble"/>
+  <text x="40" y="360" class="text">Exploring AI, software engineering, and product building</text>
+  <text x="40" y="390" class="text">one project at a time.</text>
 
-<!-- Bubble 4 -->
-<rect x="20" y="320" rx="22" width="720" height="90" class="bubble"/>
-<text x="40" y="360" class="text">Currently working on projects, improving my skills/text>
-<text x="40" y="390" class="text">and learning by building cool things</text>
-
-<!-- Bubble 5 -->
-<rect x="20" y="430" rx="22" width="430" height="60" class="bubble"/>
-<text x="40" y="465" class="text">Have a great Wednesday 👋</text>
-
+  <rect x="20" y="430" rx="22" ry="22" width="520" height="60" class="bubble"/>
+  <text x="40" y="468" class="text">Have a great Wednesday :)</text>
 </svg>
