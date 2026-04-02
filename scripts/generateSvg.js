@@ -42,7 +42,7 @@ async function generate() {
     const { temp, condition } = await getWeather();
 
     const svg = `
-<svg width="950" height="540" viewBox="0 0 950 540" xmlns="http://www.w3.org/2000/svg">
+<svg width="950" height="620" viewBox="0 0 950 620" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bubble { fill: #3f3f46; }
     .text { fill: #f5f5f5; font-family: Arial, Helvetica, sans-serif; font-size: 20px; }
@@ -66,6 +66,9 @@ async function generate() {
 
   <rect x="20" y="430" rx="22" ry="22" width="520" height="60" class="bubble"/>
   <text x="40" y="468" class="text">Have a great ${today} :)</text>
+
+  <rect x="20" y="510" rx="22" ry="22" width="460" height="60" class="bubble"/>
+  <text x="40" y="548" class="text">Connect with me on <a href="https://www.linkedin.com/in/malhardegaonkar/"><tspan class="link">LinkedIn</tspan></a></text>
 </svg>
 `;
 
