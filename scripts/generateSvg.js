@@ -67,8 +67,6 @@ async function generate() {
   <rect x="20" y="430" rx="22" ry="22" width="520" height="60" class="bubble"/>
   <text x="40" y="468" class="text">Have a great ${today} :)</text>
 
-  <rect x="20" y="510" rx="22" ry="22" width="460" height="60" class="bubble"/>
-  <text x="40" y="548" class="text">Connect with me on <a href="https://www.linkedin.com/in/malhardegaonkar/"><tspan class="link">LinkedIn</tspan></a></text>
 </svg>
 `;
 
