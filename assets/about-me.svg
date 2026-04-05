@@ -1,26 +1,430 @@
 <svg width="950" height="620" viewBox="0 0 950 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+      <clipPath id="clip-m1-0">
+        <rect x="20" y="20" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="162.4"
+            dur="0.9s"
+            begin="1.5499999999999998s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m2-0">
+        <rect x="20" y="20" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="174"
+            dur="0.9s"
+            begin="4.35s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m2-1">
+        <rect x="20" y="50" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="638"
+            dur="0.9s"
+            begin="5.1499999999999995s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m3-0">
+        <rect x="20" y="20" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="510.4"
+            dur="0.9s"
+            begin="8.15s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m3-1">
+        <rect x="20" y="50" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="661.1999999999999"
+            dur="0.9s"
+            begin="8.950000000000001s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m4-0">
+        <rect x="20" y="20" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="649.6"
+            dur="0.9s"
+            begin="11.949999999999998s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m4-1">
+        <rect x="20" y="50" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="255.2"
+            dur="0.9s"
+            begin="12.749999999999998s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+      <clipPath id="clip-m5-0">
+        <rect x="20" y="20" width="0" height="26">
+          <animate attributeName="width"
+            from="0"
+            to="255.2"
+            dur="0.9s"
+            begin="15.749999999999998s"
+            fill="freeze"/>
+        </rect>
+      </clipPath>
+    
+  </defs>
+
   <style>
-    .bubble { fill: #3f3f46; }
-    .text { fill: #f5f5f5; font-family: Arial, Helvetica, sans-serif; font-size: 20px; }
-    .link { fill: #3b82f6; text-decoration: underline; }
+    .bg {
+      fill: transparent;
+    }
+
+    .bubble {
+      fill: #3f3f46;
+      filter: drop-shadow(0px 6px 18px rgba(0,0,0,0.28));
+    }
+
+    .typing-bubble {
+      fill: #52525b;
+      filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.22));
+    }
+
+    .text {
+      fill: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+    }
+
+    .typing-dot {
+      fill: #e4e4e7;
+    }
   </style>
 
-  <rect x="20" y="20" rx="22" ry="22" width="280" height="60" class="bubble"/>
-  <text x="40" y="58" class="text">Hi, I'm Malhar</text>
+  <rect width="100%" height="100%" class="bg"/>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0"
+        keyTimes="0;0.05;0.95;1"
+        dur="1.2s"
+        begin="0s"
+        fill="freeze"/>
 
-  <rect x="20" y="100" rx="22" ry="22" width="650" height="90" class="bubble"/>
-  <text x="40" y="140" class="text">Good morning!</text>
-  <text x="40" y="170" class="text">I am from Pune, India where it is supposed to be  32°C today.</text>
+      <g transform="translate(20, 25)">
+        <rect x="0" y="0" rx="22" ry="22" width="90" height="50" class="typing-bubble"/>
 
-  <rect x="20" y="210" rx="22" ry="22" width="820" height="90" class="bubble"/>
-  <text x="40" y="250" class="text">I'm a Computer Science student interested in</text>
-  <text x="40" y="280" class="text">LLMs, open source, machine learning, and web development.</text>
+        <circle cx="25" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        </circle>
 
-  <rect x="20" y="320" rx="22" ry="22" width="760" height="90" class="bubble"/>
-  <text x="40" y="360" class="text">Exploring AI, software engineering, and product building</text>
-  <text x="40" y="390" class="text">one project at a time.</text>
+        <circle cx="45" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="0.15s" repeatCount="indefinite"/>
+        </circle>
 
-  <rect x="20" y="430" rx="22" ry="22" width="520" height="60" class="bubble"/>
-  <text x="40" y="468" class="text">Have a great Sunday :)</text>
+        <circle cx="65" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  
+    <g opacity="0" transform="translate(20, 20) scale(0.85)">
+      <animate attributeName="opacity"
+        from="0" to="1"
+        dur="0.35s"
+        begin="1.2s"
+        fill="freeze"/>
 
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="0.85;1.06;1"
+        keyTimes="0;0.6;1"
+        dur="0.35s"
+        begin="1.2s"
+        additive="sum"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 20; 20 20"
+        dur="0.35s"
+        begin="1.2s"
+        additive="replace"
+        fill="freeze"/>
+
+      <rect x="0" y="0" rx="22" ry="22" width="280" height="60" class="bubble"/>
+      
+      <text x="20" y="38" class="text" clip-path="url(#clip-m1-0)">Hi, I'm Malhar</text>
+    
+    </g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0"
+        keyTimes="0;0.05;0.95;1"
+        dur="1.2s"
+        begin="2.8s"
+        fill="freeze"/>
+
+      <g transform="translate(20, 105)">
+        <rect x="0" y="0" rx="22" ry="22" width="90" height="50" class="typing-bubble"/>
+
+        <circle cx="25" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="2.8s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="45" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="2.9499999999999997s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="65" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="3.0999999999999996s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  
+    <g opacity="0" transform="translate(20, 100) scale(0.85)">
+      <animate attributeName="opacity"
+        from="0" to="1"
+        dur="0.35s"
+        begin="4s"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="0.85;1.06;1"
+        keyTimes="0;0.6;1"
+        dur="0.35s"
+        begin="4s"
+        additive="sum"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 100; 20 100"
+        dur="0.35s"
+        begin="4s"
+        additive="replace"
+        fill="freeze"/>
+
+      <rect x="0" y="0" rx="22" ry="22" width="760" height="90" class="bubble"/>
+      
+      <text x="20" y="38" class="text" clip-path="url(#clip-m2-0)">Good afternoon!</text>
+    
+      <text x="20" y="68" class="text" clip-path="url(#clip-m2-1)">I am from Pune, India where it is 32°C and clear today.</text>
+    
+    </g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0"
+        keyTimes="0;0.05;0.95;1"
+        dur="1.2s"
+        begin="6.6s"
+        fill="freeze"/>
+
+      <g transform="translate(20, 215)">
+        <rect x="0" y="0" rx="22" ry="22" width="90" height="50" class="typing-bubble"/>
+
+        <circle cx="25" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="6.6s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="45" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="6.75s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="65" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="6.8999999999999995s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  
+    <g opacity="0" transform="translate(20, 210) scale(0.85)">
+      <animate attributeName="opacity"
+        from="0" to="1"
+        dur="0.35s"
+        begin="7.8s"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="0.85;1.06;1"
+        keyTimes="0;0.6;1"
+        dur="0.35s"
+        begin="7.8s"
+        additive="sum"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 210; 20 210"
+        dur="0.35s"
+        begin="7.8s"
+        additive="replace"
+        fill="freeze"/>
+
+      <rect x="0" y="0" rx="22" ry="22" width="830" height="90" class="bubble"/>
+      
+      <text x="20" y="38" class="text" clip-path="url(#clip-m3-0)">I'm a Computer Science student interested in</text>
+    
+      <text x="20" y="68" class="text" clip-path="url(#clip-m3-1)">LLMs, open source, machine learning, and web development.</text>
+    
+    </g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0"
+        keyTimes="0;0.05;0.95;1"
+        dur="1.2s"
+        begin="10.399999999999999s"
+        fill="freeze"/>
+
+      <g transform="translate(20, 325)">
+        <rect x="0" y="0" rx="22" ry="22" width="90" height="50" class="typing-bubble"/>
+
+        <circle cx="25" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="10.399999999999999s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="45" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="10.549999999999999s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="65" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="10.7s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  
+    <g opacity="0" transform="translate(20, 320) scale(0.85)">
+      <animate attributeName="opacity"
+        from="0" to="1"
+        dur="0.35s"
+        begin="11.599999999999998s"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="0.85;1.06;1"
+        keyTimes="0;0.6;1"
+        dur="0.35s"
+        begin="11.599999999999998s"
+        additive="sum"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 320; 20 320"
+        dur="0.35s"
+        begin="11.599999999999998s"
+        additive="replace"
+        fill="freeze"/>
+
+      <rect x="0" y="0" rx="22" ry="22" width="770" height="90" class="bubble"/>
+      
+      <text x="20" y="38" class="text" clip-path="url(#clip-m4-0)">Exploring AI, software engineering, and product building</text>
+    
+      <text x="20" y="68" class="text" clip-path="url(#clip-m4-1)">one project at a time.</text>
+    
+    </g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0"
+        keyTimes="0;0.05;0.95;1"
+        dur="1.2s"
+        begin="14.2s"
+        fill="freeze"/>
+
+      <g transform="translate(20, 435)">
+        <rect x="0" y="0" rx="22" ry="22" width="90" height="50" class="typing-bubble"/>
+
+        <circle cx="25" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="14.2s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="45" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="14.35s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="65" cy="25" r="5" class="typing-dot">
+          <animate attributeName="opacity" values="0.25;1;0.25"
+            dur="0.9s" begin="14.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  
+    <g opacity="0" transform="translate(20, 430) scale(0.85)">
+      <animate attributeName="opacity"
+        from="0" to="1"
+        dur="0.35s"
+        begin="15.399999999999999s"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="0.85;1.06;1"
+        keyTimes="0;0.6;1"
+        dur="0.35s"
+        begin="15.399999999999999s"
+        additive="sum"
+        fill="freeze"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 430; 20 430"
+        dur="0.35s"
+        begin="15.399999999999999s"
+        additive="replace"
+        fill="freeze"/>
+
+      <rect x="0" y="0" rx="22" ry="22" width="530" height="60" class="bubble"/>
+      
+      <text x="20" y="38" class="text" clip-path="url(#clip-m5-0)">Have a great Sunday :)</text>
+    
+    </g>
+  
+
+  <!-- loop reset -->
+  <animate attributeName="opacity"
+           values="1;1"
+           dur="19s"
+           repeatCount="indefinite"/>
 </svg>
