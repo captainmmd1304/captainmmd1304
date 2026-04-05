@@ -9,8 +9,8 @@
   <text x="40" y="58" class="text">Hi, I'm Malhar</text>
 
   <rect x="20" y="100" rx="22" ry="22" width="650" height="90" class="bubble"/>
-  <text x="40" y="140" class="text">Good evening!</text>
-  <text x="40" y="170" class="text">I am from Pune, India where it is supposed to be  25°C today.</text>
+  <text x="40" y="140" class="text">Good morning!</text>
+  <text x="40" y="170" class="text">I am from Pune, India where it is supposed to be  22°C today.</text>
 
   <rect x="20" y="210" rx="22" ry="22" width="820" height="90" class="bubble"/>
   <text x="40" y="250" class="text">I'm a Computer Science student interested in</text>
@@ -21,6 +21,6 @@
   <text x="40" y="390" class="text">one project at a time.</text>
 
   <rect x="20" y="430" rx="22" ry="22" width="520" height="60" class="bubble"/>
-  <text x="40" y="468" class="text">Have a great Saturday :)</text>
+  <text x="40" y="468" class="text">Have a great Sunday :)</text>
 
 </svg>
