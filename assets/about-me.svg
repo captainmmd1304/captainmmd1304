@@ -234,9 +234,9 @@
 
       <rect x="0" y="0" rx="22" ry="22" width="760" height="90" class="bubble"/>
       
-      <text x="20" y="38" class="text" clip-path="url(#clip-m2-0)">Good evening!</text>
+      <text x="20" y="38" class="text" clip-path="url(#clip-m2-0)">Good morning!</text>
     
-      <text x="20" y="68" class="text" clip-path="url(#clip-m2-1)">I am from Pune, India where it is 23°C and clear today.</text>
+      <text x="20" y="68" class="text" clip-path="url(#clip-m2-1)">I am from Pune, India where it is 20°C and clear today.</text>
     
     </g>
   
@@ -417,7 +417,7 @@
 
       <rect x="0" y="0" rx="22" ry="22" width="530" height="60" class="bubble"/>
       
-      <text x="20" y="38" class="text" clip-path="url(#clip-m5-0)">Have a great Sunday :)</text>
+      <text x="20" y="38" class="text" clip-path="url(#clip-m5-0)">Have a great Monday :)</text>
     
     </g>
   
