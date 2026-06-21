@@ -27,7 +27,7 @@
         <rect x="20" y="50" width="0" height="26">
           <animate attributeName="width"
             from="0"
-            to="638"
+            to="649.6"
             dur="0.9s"
             begin="5.1499999999999995s"
             fill="freeze"/>
@@ -236,7 +236,7 @@
       
       <text x="20" y="38" class="text" clip-path="url(#clip-m2-0)">Good morning!</text>
     
-      <text x="20" y="68" class="text" clip-path="url(#clip-m2-1)">I am from Pune, India where it is 28°C and clear today.</text>
+      <text x="20" y="68" class="text" clip-path="url(#clip-m2-1)">I am from Pune, India where it is 32°C and clouds today.</text>
     
     </g>
   
